@@ -1,0 +1,233 @@
+*{
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabs1{
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 25%;
+    position: fixed;
+}
+
+.account{
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    right: 0%;
+    height: 100%;
+    width: 32%;
+    position: fixed;
+}
+
+.search{
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    right: 32.05%;
+    height: 15%;
+    width: 42.8%;
+    position: fixed;
+    z-index: 0;
+}
+
+.login{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    top: 3%;
+    left: 7%;
+    height: 40%;
+    width: 70%;
+}
+
+.stab{
+    font-size: medium;
+    background-color: #1d1c25;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+    border-color: transparent;
+    position: relative;
+    top: 7%;
+    left: 3%;
+    height: 1.2cm;
+    width: 77%;
+}
+
+.logo{
+    position: relative;
+    top: 10px;
+    width:35px;
+    height:35px;
+}
+
+.logo:hover{
+    height: 5%;
+    border-radius: 25%;
+    background-color: #ffffff27;
+}
+
+.btn1{
+    font-weight: bold;
+    width: 40%;
+    height: 5%;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    position: relative;
+    left: 45%;
+    top: 5%;
+}
+
+.btn1:hover{
+    height: 5%;
+    border-radius: 10px;
+    background-color: #ffffff27;
+}
+
+.try{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+}
+
+.tabs{
+    height: 40%;
+    color: #414141;
+    position: relative;
+    top: 65%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.active, .tabs:hover {
+    border-width: 0px 0px 4.5px 0px;
+    border-color: #0e52d9;
+    color: white;
+}
+
+.tabs:hover{
+    background-color: #41414169;
+}
+
+.btn2{
+    background-color: #ffffff;
+    width: 90%;
+    height: 13%;
+    border-radius: 20px;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-weight: 600;
+}
+
+.remain{
+    height: 100%;
+    width: 42.8%;
+    background-color: black;
+    position: absolute;
+    top:15%;
+    right: 32.1%;
+}
+
+
+.modal1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content1 {
+    background-color: #000000;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    width: 80%;
+  }
+  
+  .close1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.cred{
+    display: inline-block;
+    border-radius: 25px;
+    width: 7cm;
+    height: 1.2cm;
+    border-color: transparent;
+    background-color: #1d1c25;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.hashtag{
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin: 15px;
+    top: 0px;
+    position: relative;
+    width: 100%;
+    height: 1.5cm;
+    line-height: 20px;
+}
+
+.trend_category{
+    color: grey;
+    font-size: x-small;
+}
+
+.tag{
+    color: white;
+}
+
+.footer{
+    height: 2cm;
+    width: 100%;
+    background-color: rgb(58, 143, 208);
+    position: fixed;
+    bottom: 0%;
+    z-index: 1;
+}
+
+.footer_text{
+    background-color: rgb(58, 143, 208);
+    color: white;
+    position: relative;
+    left: 25%;
+    top: 15%;
+}

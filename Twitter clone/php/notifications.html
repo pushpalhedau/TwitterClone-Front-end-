@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script>
+            $(function() {
+                $("#includeHtml").load("user_info_partial.html");
+            });
+        </script>
+        <link rel="stylesheet" type="text/css" href="/twitter clone/css/landing.css">
+        <link rel="stylesheet" type="text/css" href="/twitter clone/css/setting.css">
+        <link rel="stylesheet" type="text/css" href="/twitter clone/css/user_info_partial.css">
+        <title>Twitter Clone!</title>
+    </head>
+
+    <body>
+        <script src="/twitter clone/js/landing.js"></script>
+
+        <div id="includeHtml"></div>
+
+        <div style="z-index: 1;" class="search">
+            <div class="tab_name">
+                <h3>Notifications</h3>
+            </div>
+            <div class="try">
+                <button class="tabs active">All</button>
+                <button class="tabs">Verfied</button>
+                <button class="tabs">Mentions</button>
+            </div>
+        </div>
+
+        <div class="remain">
+            <hr class="hr_line">
+            <img class="notification_img" src="https://abs.twimg.com/responsive-web/client-web/verification-check-800x400.v1.52677a99.png">
+            <h1 style="text-align: left; padding-left: 30%; color: white;">Nothing to see here -<br>yet</h1>
+            <h4 style="text-align: left; padding-left: 30%; padding-right: 30%; color: #414141;">Likes, mentions, Retweets, and a whole lot more - when it comes from a verified account, you&#39ll find it here. Learn more</h4>
+        </div>
+
+    </body>
+</html>
